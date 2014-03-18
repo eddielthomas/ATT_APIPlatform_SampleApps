@@ -483,11 +483,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleAppTemplate/ATTAdKitSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SampleAppTemplate/ATTAdKitSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../Debug-universal\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -509,11 +508,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleAppTemplate/ATTAdKitSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SampleAppTemplate/ATTAdKitSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../Debug-universal\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -593,11 +591,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleAppTemplate/ATTAdKitSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "SampleAppTemplate/ATTAdKitSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../Debug-universal\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",

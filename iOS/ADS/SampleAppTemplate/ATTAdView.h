@@ -443,6 +443,17 @@ typedef enum {
 
 -(id)initWithFrame:(CGRect)frame appKey:(NSString*)appKey appsecret:(NSString*)appSecret category:(NSString*)adCategory udid:(NSString*) Udid;
 
+/**
+ Initializes or Refreshes the Ad in the provided frame.
+ Verifies for the existance of valid access token present with in the key chain.
+ If exists, directly initializes the 'ad' service rest call.
+ If token exists but expires, initializes 'oauth' service to refresh the token and registers the delegate.
+ The delegate initializes the ATT 'ad' service call and registers delegates didReceiveAdResponce message.
+ If the token doesn't exist at all, initializes 'oauth' service to get access token and registers the delegate.
+ The delegate initializes the ATT 'ad' service call and registers delegates  didReceiveAdResponce message.
+ */
+-(void) initOrRefreshAd;
+
 
 
 
